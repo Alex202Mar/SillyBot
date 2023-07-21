@@ -51,7 +51,7 @@ async def on_message(message):
         return
 
     # Check if the message starts with the command prefix
-    if message.content.startswith('!animalfact'):
+    if message.content.startswith('~factplease'):
         # Get a random funny animal fact
         fact = random.choice(funny_animal_facts)
 
